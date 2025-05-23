@@ -39,7 +39,7 @@ UUID=<partition_UUID> /media/data <filesystem_type> defaults 0 0
 sudo apt update
 sudo apt upgrade
 ```
-	
+
 # WiFi问题 ：
 ```
 sudo apt install flex bison
@@ -99,7 +99,7 @@ ubuntu-drivers devices
 reboot   重启
 再次输入nvidia-smi，可以显示即可
 ```
-	
+
 # 显示器问题 ：
 
 进入bios，将SG/PEG修改为discreate模式
@@ -308,7 +308,7 @@ custom_channels:
   deepmodeling: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
   运行 conda clean -i 清除索引缓存，保证用的是镜像站提供的索引
 ```
-		
+
 ## 4. conda安装cuda，pytorch等 ：
 
 ```
@@ -365,7 +365,7 @@ sudo apt-get install build-essential
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 ```
-		
+
 * 报错E: 无法定位软件包 libjasper-dev：
 	sudo apt install libjasper1 libjasper-dev（仍然报错）
 	
@@ -403,7 +403,7 @@ sudo cmake ..
 sudo make -j8
 sudo make install
 ```
-	
+
 ## 3. 进行配置：
 
 ### 3.1. 确认路径 ：

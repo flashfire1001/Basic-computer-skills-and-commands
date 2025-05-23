@@ -17,8 +17,12 @@ why markdown:
 111111111111111111111111111111111111111111111111111111111111111
 qq   
 asdfasdf
+
+112
+1111<br>123
+
 <p> this is a new paragraph </p>
-sdaf<br> this is a new line
+sdaf <br> this is a new line
 
 A sequence to translate C program: first preprocess it ,then compile it.
 
@@ -126,6 +130,8 @@ int main(){
 | br 可以在表格中间换行         |        |                  |
 |                               |        |                  |
 |                               |        |                  |
+
+
 
 嵌入html代码
 
